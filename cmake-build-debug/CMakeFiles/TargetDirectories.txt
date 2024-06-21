@@ -1,0 +1,3 @@
+C:/Users/HP/CLionProjects/Rubik'c_cube_solver/cmake-build-debug/CMakeFiles/Rubik_c_cube_solver.dir
+C:/Users/HP/CLionProjects/Rubik'c_cube_solver/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/HP/CLionProjects/Rubik'c_cube_solver/cmake-build-debug/CMakeFiles/rebuild_cache.dir
