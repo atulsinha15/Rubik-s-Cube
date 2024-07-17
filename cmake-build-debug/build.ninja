@@ -55,29 +55,29 @@ build CMakeFiles/Rubik_c_cube_solver.dir/main.cpp.obj: CXX_COMPILER__Rubik_c_cub
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
   OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir
 
-build CMakeFiles/Rubik_c_cube_solver.dir/generic_rubiks_cube.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/generic_rubiks_cube.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
-  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\generic_rubiks_cube.cpp.obj.d
+build CMakeFiles/Rubik_c_cube_solver.dir/Model/generic_rubiks_cube.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/Model/generic_rubiks_cube.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
+  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\Model\generic_rubiks_cube.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir\Model
 
-build CMakeFiles/Rubik_c_cube_solver.dir/RubiksCube3dArray.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/RubiksCube3dArray.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
-  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\RubiksCube3dArray.cpp.obj.d
+build CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCube3dArray.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/Model/RubiksCube3dArray.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
+  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\Model\RubiksCube3dArray.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir\Model
 
-build CMakeFiles/Rubik_c_cube_solver.dir/RubiksCube1dArray.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/RubiksCube1dArray.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
-  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\RubiksCube1dArray.cpp.obj.d
+build CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCube1dArray.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/Model/RubiksCube1dArray.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
+  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\Model\RubiksCube1dArray.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir\Model
 
-build CMakeFiles/Rubik_c_cube_solver.dir/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
-  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\RubiksCubeBitboard.cpp.obj.d
+build CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCubeBitboard.cpp.obj: CXX_COMPILER__Rubik_c_cube_solver_unscanned_Debug C$:/Users/HP/CLionProjects/Rubik'c_cube_solver/Model/RubiksCubeBitboard.cpp || cmake_object_order_depends_target_Rubik_c_cube_solver
+  DEP_FILE = CMakeFiles\Rubik_c_cube_solver.dir\Model\RubiksCubeBitboard.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
-  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir
+  OBJECT_FILE_DIR = CMakeFiles\Rubik_c_cube_solver.dir\Model
 
 
 # =============================================================================
@@ -87,7 +87,7 @@ build CMakeFiles/Rubik_c_cube_solver.dir/RubiksCubeBitboard.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable Rubik_c_cube_solver.exe
 
-build Rubik_c_cube_solver.exe: CXX_EXECUTABLE_LINKER__Rubik_c_cube_solver_Debug CMakeFiles/Rubik_c_cube_solver.dir/main.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/generic_rubiks_cube.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/RubiksCube3dArray.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/RubiksCube1dArray.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/RubiksCubeBitboard.cpp.obj
+build Rubik_c_cube_solver.exe: CXX_EXECUTABLE_LINKER__Rubik_c_cube_solver_Debug CMakeFiles/Rubik_c_cube_solver.dir/main.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/Model/generic_rubiks_cube.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCube3dArray.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCube1dArray.cpp.obj CMakeFiles/Rubik_c_cube_solver.dir/Model/RubiksCubeBitboard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Rubik_c_cube_solver.dir
