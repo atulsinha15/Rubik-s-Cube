@@ -1,5 +1,5 @@
 //
-// Created by HP on 21-06-2024.
+// Created by HP on 12-06-2024.
 //
 
 #ifndef GENERIC_RUBIKS_CUBE_H
@@ -40,32 +40,32 @@ public:
 
     //task 1 a all 18 moves
     virtual generic_rubiks_cube &u() = 0;
-    virtual generic_rubiks_cube &uprime() = 0;
+    virtual generic_rubiks_cube &uPrime() = 0;
     virtual generic_rubiks_cube &u2() = 0;
 
     virtual generic_rubiks_cube &l() = 0;
-    virtual generic_rubiks_cube &lprime() = 0;
+    virtual generic_rubiks_cube &lPrime() = 0;
     virtual generic_rubiks_cube &l2() = 0;
 
     virtual generic_rubiks_cube &f() = 0;
-    virtual generic_rubiks_cube &fprime() = 0;
+    virtual generic_rubiks_cube &fPrime() = 0;
     virtual generic_rubiks_cube &f2() = 0;
 
     virtual generic_rubiks_cube &r() = 0;
-    virtual generic_rubiks_cube &rprime() = 0;
+    virtual generic_rubiks_cube &rPrime() = 0;
     virtual generic_rubiks_cube &r2() = 0;
 
     virtual generic_rubiks_cube &b() = 0;
-    virtual generic_rubiks_cube &bprime() = 0;
+    virtual generic_rubiks_cube &bPrime() = 0;
     virtual generic_rubiks_cube &b2() = 0;
 
     virtual generic_rubiks_cube &d() = 0;
-    virtual generic_rubiks_cube &dprime() = 0;
+    virtual generic_rubiks_cube &dPrime() = 0;
     virtual generic_rubiks_cube &d2() = 0;
 
 
     // is solved
-    virtual bool is_solved() const =0;
+    virtual bool isSolved() const =0;
 
     // get color
     virtual  COLOR getColor(FACE face,unsigned row,unsigned col)  const=0;

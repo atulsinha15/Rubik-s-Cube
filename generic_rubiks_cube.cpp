@@ -1,5 +1,5 @@
 //
-// Created by HP on 21-06-2024.
+// Created by HP on 12-06-2024.
 //
 
 #include "generic_rubiks_cube.h"
@@ -77,42 +77,42 @@ generic_rubiks_cube& generic_rubiks_cube::move(MOVE ind) {
         case MOVE::U:
             return this->u();
         case MOVE::UPRIME:
-            return this->uprime();
+            return this->uPrime();
         case MOVE::U2:
             return this->u2();
 
         case MOVE::L:
             return this->l();
         case MOVE::LPRIME:
-            return this->lprime();
+            return this->lPrime();
         case MOVE::L2:
             return this->l2();
 
         case MOVE::F:
             return this->f();
         case MOVE::FPRIME:
-            return this->fprime();
+            return this->fPrime();
         case MOVE::F2:
             return this->f2();
 
         case MOVE::R:
             return this->r();
         case MOVE::RPRIME:
-            return this->rprime();
+            return this->rPrime();
         case MOVE::R2:
             return this->r2();
 
         case MOVE::B:
             return this->b();
         case MOVE::BPRIME:
-            return this->bprime();
+            return this->bPrime();
         case MOVE::B2:
             return this->b2();
 
         case MOVE::D:
             return this->d();
         case MOVE::DPRIME:
-            return this->dprime();
+            return this->dPrime();
         case MOVE::D2:
             return this->d2();
     }
@@ -124,42 +124,42 @@ generic_rubiks_cube& generic_rubiks_cube::move(MOVE ind) {
 generic_rubiks_cube& generic_rubiks_cube::invert(MOVE ind) {
     switch (ind) {
         case MOVE::U:
-            return this->uprime();
+            return this->uPrime();
         case MOVE::UPRIME:
             return this->u();
         case MOVE::U2:
             return this->u2();
 
         case MOVE::L:
-            return this->lprime();
+            return this->lPrime();
         case MOVE::LPRIME:
             return this->l();
         case MOVE::L2:
             return this->l2();
 
         case MOVE::F:
-            return this->fprime();
+            return this->fPrime();
         case MOVE::FPRIME:
             return this->f();
         case MOVE::F2:
             return this->f2();
 
         case MOVE::R:
-            return this->rprime();
+            return this->rPrime();
         case MOVE::RPRIME:
             return this->r();
         case MOVE::R2:
             return this->r2();
 
         case MOVE::B:
-            return this->bprime();
+            return this->bPrime();
         case MOVE::BPRIME:
             return this->b();
         case MOVE::B2:
             return this->b2();
 
         case MOVE::D:
-            return this->dprime();
+            return this->dPrime();
         case MOVE::DPRIME:
             return this->d();
         case MOVE::D2:
