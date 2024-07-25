@@ -1,5 +1,5 @@
 //
-// Created by HP on 12-06-2024.
+// Created by Atul on 05-06-2024.
 //
 
 #ifndef GENERIC_RUBIKS_CUBE_H
@@ -90,6 +90,12 @@ public:
 
     //print
     void print() const;
+
+    string getCornerColorString(uint8_t ind) const;
+
+    uint8_t getCornerIndex(uint8_t ind) const;
+
+    uint8_t getCornerOrientation(uint8_t ind) const;
 
 };
 

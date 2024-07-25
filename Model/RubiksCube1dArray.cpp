@@ -1,5 +1,5 @@
 //
-// Created by HP on 15-06-2024.
+// Created by Atul on 15-06-2024.
 //
 
 #include "generic_rubiks_cube.h"
